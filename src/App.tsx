@@ -11,7 +11,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Dashboard} />
+      <Route path="/portfolio" component={Dashboard} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>

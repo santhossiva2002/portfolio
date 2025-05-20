@@ -14,7 +14,9 @@ export function ProfileSection() {
         >
           <div className="relative">
             <motion.img 
-              src="/siva_image.jpeg" 
+            src={`${import.meta.env.BASE_URL}siva_image.jpeg`}
+
+              // src="/siva_image.jpeg" 
               alt={profileData.name} 
               className="w-32 h-32 rounded-full object-cover border-4 border-primary shadow-md"
               whileHover={{ scale: 1.05 }}
