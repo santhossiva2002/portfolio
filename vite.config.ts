@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     
   ],
-  base: "/portfolio/",
+
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -20,10 +20,5 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"), // ✅ Changed from dist/public to just dist
     emptyOutDir: true,
-    rollupOptions: {
-      input: {
-        main: path.resolve(import.meta.dirname, "client", "index.html")
-      }
-    }
   },
 });
