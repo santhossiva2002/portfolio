@@ -3,12 +3,12 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [
     react(),
     
   ],
-
+  base: command === "serve" ? "/" : "/portfolio/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -21,4 +21,4 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "dist"), // ✅ Changed from dist/public to just dist
     emptyOutDir: true,
   },
-});
+}));
