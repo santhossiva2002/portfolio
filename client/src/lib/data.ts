@@ -217,7 +217,7 @@ export const profileData: ProfileData = {
       darkCategoryBg: "dark:bg-purple-900",
       darkCategoryColor: "dark:text-purple-300",
       tags: ["React", "Node.js", "Socket.io", "Data Viz"],
-      link: "https://github.com/santhossiva2002/DataChat",
+      link: "https://datachat-server.onrender.com",
       isExternal: true,
       linkText: "View on GitHub"
     },
@@ -230,7 +230,7 @@ export const profileData: ProfileData = {
       darkCategoryBg: "dark:bg-indigo-900",
       darkCategoryColor: "dark:text-indigo-300",
       tags: ["JavaScript", "MongoDB", "Express", "CodeMirror"],
-      link: "https://github.com/santhossiva2002/codelearn",
+      link: "https://codelearn-production.up.railway.app/",
       isExternal: true,
       linkText: "View on GitHub"
     }

@@ -14,7 +14,7 @@ export function ProfileSection() {
         >
           <div className="relative">
             <motion.img 
-              src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&q=80" 
+              src="/siva_image.jpeg" 
               alt={profileData.name} 
               className="w-32 h-32 rounded-full object-cover border-4 border-primary shadow-md"
               whileHover={{ scale: 1.05 }}
